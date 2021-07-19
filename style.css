@@ -1,0 +1,19 @@
+div{
+	width: 100px;
+	height:100px ;
+	border: 2px solid black;
+	text-align: center;
+	padding: 2em;
+	background: blue;
+	margin: 2em auto 0;
+	transition: width 2s, height 4s, transform 2s;
+	transition-timing-function: ease-in;
+	transition-delay: 0.5s;
+}
+
+div:hover{
+	width:300px;
+	height: 200px;
+	background: red;
+transform: rotate(360deg);
+}
